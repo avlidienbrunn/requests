@@ -460,6 +460,7 @@ def requote_uri(uri):
     This function passes the given URI through an unquote/quote cycle to
     ensure that it is fully and consistently quoted.
     """
+    return uri
     safe_with_percent = "!#$%&'()*+,/:;=?@[]~"
     safe_without_percent = "!#$&'()*+,/:;=?@[]~"
     try:
