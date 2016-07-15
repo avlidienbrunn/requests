@@ -6,4 +6,4 @@ Requests: HTTP for Humans
 * python setup.py build
 * python setup.py install
 
-todo: remove logic that converts "\” to "\\"
+todo: remove logic that converts "\\” to "\\\\"
